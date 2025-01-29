@@ -53,6 +53,7 @@ RUN apt-get update --yes && \
     cmake \
     gfortran \
     libblas-dev \
+    libsqlite3-dev \
     liblapack-dev && \
     # Deep Learning Dependencies and Miscellaneous
     apt install --yes --no-install-recommends \
