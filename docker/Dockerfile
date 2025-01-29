@@ -53,6 +53,11 @@ RUN apt-get update --yes && \
     cmake \
     gfortran \
     libblas-dev \
+    libbz2-dev \
+    libncurses5-dev \
+    libncursesw5-dev \
+    libreadline-dev \
+    liblzma-dev \
     libsqlite3-dev \
     liblapack-dev && \
     # Deep Learning Dependencies and Miscellaneous
